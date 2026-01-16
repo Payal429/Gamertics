@@ -1,0 +1,130 @@
+.signupForm{
+    position: relative;
+    float: center;
+    border: 3px solid;
+    width: 80%;
+    margin-left: 10%;
+    background: linear-gradient(#180a00,black);  
+    color: white;
+}
+table{
+    width: 45%;
+    margin-left: 28%;
+    margin-right: 20%;
+}
+td{
+    height: 55px;
+}
+label{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+.form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+option{
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.form input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form input[type=number]{
+    width: 42%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type=submit]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+    border: 3.5px solid orangered;
+    border-radius: 10px;
+}
+button{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+    border: 3.5px solid orangered;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    border: 3.5px solid white;
+    background-color: orangered;
+    font-weight: bold;
+    font-family: monospace;
+}
+button:hover{
+    border: 3.5px solid white;
+    background-color: orangered;
+    font-weight: bold;
+    font-family: monospace;
+}

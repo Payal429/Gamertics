@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!--Link to CSS stylesheet-->
+        <link rel="stylesheet" href="../CSS_Pages/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Title of Website-->
+        <title>Contact us</title>
+
+        <!--CSS Styling for contact us page-->
+        <style type="text/css">
+        /*Card with details styling*/
+            .card .image{
+                text-align: center;
+            }
+            .card{
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 15%;
+                background-color: White;
+                color: Black;
+                border:6px solid orangered;
+                border-radius: 15px;
+                display:inline-block;
+                font-family: Helvetica;
+                padding: 2px 16px;
+                margin-left: 11%;
+            }
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            .container {
+                padding: 2px 16px;
+            }
+            /*Contact us information styling*/
+            .info h2{
+                font-family: Helvetica;
+                font-size: 50px;
+                text-align: center;
+                color: white;
+            }
+            .info{
+                background: black;
+                padding-top:10px ;
+                padding-bottom: 20px;
+            }
+            .info label{
+                font-family: monospace;
+                font-size: 20px;
+                margin-left: 33%;
+                color: white;
+            }
+            .info [type=text]{
+                width:30%;
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid black;  
+                float: center;
+                margin-left: 35%;
+                font-family: monospace;
+                border-radius: 10px;
+            }
+            .info [type=email]{
+                width:30%;
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid black;  
+                float: center;
+                margin-left: 35%;
+                font-family: monospace;
+                border-radius: 10px;
+            }        
+            .info textarea{
+                width:30%;
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid black;  
+                float: center;
+                margin-left: 35%;
+                font-family: monospace;
+                border-radius: 10px;
+            }
+            .info button{
+                position: relative;
+                width:10%;
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid black;  
+                float: center;
+                margin-left: 45%;
+                font-family: monospace;
+                font-weight: bold;
+                border-radius: 10px;
+            }
+            .info button:hover{
+                color: White;
+                background-color: orangered;
+                border: 2px solid White;  
+            }
+        </style>       
+    </head>
+
+    <body>
+        <!--Creating a heading for the website-->
+        <div class="Header">
+            <img src="Images/africanSafari.jpg" alt="AfricanSafari" style="width:100%;" >
+            <div class="heading"><h1>GAMERTICS</h1></div>
+        </div>
+        <!--Creating a naviagtion bar for the website-->
+        <div class="nav">
+            <a class="active" href="Homepage.html">Home</a>
+            <a href="AboutPage.html">About</a>
+            <a href="TopGamespage.html">Top Games</a>
+            <a href="GameInformationPage.html">Games Information</a>
+            <a href="UnreleasedGames.html">Upcoming Games</a>
+            <a href="ContactPage.html">Contact</a>
+            <a href="HelpPage.html">Help</a>
+            <a href="LoginPage.html" class="split">Login</a>
+            <a href="https://www.facebook.com/" class="split"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" class="split"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/accounts/login/" class="split"><i class="fa fa-instagram"></i></a>
+            
+            <!--Search bar for navigation bar-->
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <!--Card Information-->
+        <div class="card">
+           <div class="image"><img src="Images/phone.jpg" alt="Cellphone" style="width:50%;"></div>
+            <div class="contact">
+                <h4><b>Phone Number</b></h4> 
+                <p>+27 08 623 5984</p> 
+            </div>
+        </div>
+        <div class="card">
+            <div class="image"><img src="Images/email.jpg" alt="email" style="width:50%;"></div>
+            <div class="contact">
+                <h4><b>Email Address</b></h4> 
+                <p>hello@gamertics.outlook.com</p> 
+            </div>
+        </div>
+        <div class="card">
+            <div class="image"><img src="Images/location.jpg" alt="location" style="width:50%;"></div>
+            <div class="contact">
+                <h4><b>Location</b></h4> 
+                <p>356 Gamer street, South Africa</p> 
+            </div>
+        </div>
+        
+        <br>
+        <br>
+
+        <!--Contact Information for users to enter-->
+        <div class="info">
+            <h2>Contact Us</h2>
+            <form action="/action_page.php">
+              <label for="fname">First Name:</label><br>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+          
+              <label for="lname">Last Name:</label><br>
+              <input type="email" id="email" name="email" placeholder="Enter your email address.."><br><br>
+        
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" placeholder="Write your message.." style="height:200px"></textarea><br><br>
+          
+              <button>Submit</button>
+            </form>
+        </div>
+       
+        <br>
+
+        <!--Creating a footer for the website-->
+        <div class="Footer">
+            <div class="footerRow">
+                <ul>
+                    <li><a href="ContactPage.html">Contact us</a></li>
+                    <li><a href="AboutPage.html">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="HelpPage.html">Help</a></li>
+                    <li><a href="References.html">References</a></li>
+                </ul>
+            </div>
+            
+            <br>
+
+            <!--Social Media icons-->
+            <div class="social-container">
+                <ul class="social">
+                    <li><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiLjLXAnoX-AhWWTEEAHeRvDSAQPAgI"><i class="fa fa-google"></i></a></li>
+                    <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            
+            <hr><hr>
+
+            <!--Copyright-->
+            <div class="footerRow">
+                <p>Gamertics Copyright &copy; 2023 Gamertics - All rights reserved || Designed By: Payal, Student Number: 23301266</p> 
+            </div>
+        </div>
+
+        
+    </body>
+</html>

@@ -1,0 +1,176 @@
+body{
+    background: linear-gradient( #CC6D29,#CC6114,#CC5500,#FF6200,#FE612C);  
+}
+
+/*Styling of heading with website title*/
+.Header{
+    position: relative;
+    margin: 0 auto;
+}
+.Header .heading h1{
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 110px;
+    text-align: center;
+}
+/*Styling Ends for Heading*/
+
+/*Navigation Bar Styling*/
+/*Navigation bar links styling ends*/
+.nav{
+    overflow:hidden;
+    background: rgb(10, 10, 10) ;
+    width: 100%;
+}
+.nav a{
+    float:left;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+/*Use of Link States*/
+.nav a.split:active{
+    color:orangered;
+}
+.nav a:hover{
+    background-color: chocolate;
+    color:black;
+    font-weight: bold;
+}
+/*Create a right-aligned (split) link inside the navigation bar */
+.nav a.split{
+    float: right;
+    background: rgb(10, 10, 10) ;
+    color: white;
+}
+.nav .active{
+    background-color: orangered;
+}
+/*Navigation bar links styling ends*/
+/*Search button Styling*/
+.search-container{
+    float: center;
+}
+input[type=text]{
+    padding: 6px;
+    width: 15%;
+    font-size: 16px;
+    border: 2px solid black;  
+    float: center;
+    margin-left: 10%;
+}
+.search-container button{
+    float: center;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(10, 10, 10) ;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:50px;
+}
+.search-container button:hover {
+    background: white;
+    color:black;
+}
+@media screen and (max-width: 600px){
+ .search-container {
+      float: none;
+    }
+.topnav input[type=text], .topnav .search-container button{
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+}
+/*Search button Styling Ends*/
+/*Navigation Bar Styling*/
+
+/*Footer Styling*/
+.Footer{
+    width:100%;
+    background: rgb(10, 10, 10) ;
+    color: white;
+    font-family: Helvetica;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Footer .footerRow a{
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.Footer .footerRow a:hover{
+    color: chocolate;
+}
+.Footer .footerRow ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+/*Footer Styling Ends*/
+.social-container{
+	margin:0%;
+    width: 400px;
+	min-height:75px;
+	width:100%;
+    text-align: center;
+}
+.social-container p{
+	Font-Family: Helvetica;
+	color: White;
+}
+.social li{
+	display:inline-block;
+	margin:0.15%;
+	position:relative;
+    text-align: center;
+	font-size: 20px;
+}
+.social i{
+	position: absolute;
+	color: #fff;
+	top: 20px;
+	left:20px;
+	transition:all 265ms ease-out;
+}
+.social a{
+	display:inline-block;
+}
+.social a::before{
+	transform: scale(); 
+	content:"";
+	width: 60px; 
+	height: 60px;
+	border-radius: 100%;
+	display: block; 
+	background: linear-gradient(#CC6D29,#CC6114,#CC5500,#FF6200,#FE612C); 
+	transition: all 265ms ease-out; 
+}
+.social a:hover::before{ 
+	transform: scale(0);
+	transition: all 265ms ease-in;
+}
+.social a:hover i{
+	transform: scale (2);
+	color: #ffa600 100%;
+    /*Use of website browser prefixes*/
+	background: -webkit-linear-gradient(#CC6D29,#CC6114,#CC5500,#FF6200,#FE612C);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 265ms ease-in;
+}
+  

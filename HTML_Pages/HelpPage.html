@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <!--Link to CSS stylesheet-->
+        <link rel="stylesheet" href="../CSS_Pages/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!--Title of Website-->
+        <title>Help</title>
+
+        <!--CSS Styling for Help Page-->
+        <style type="text/css">
+            .search h2{
+                position:absolute;
+                bottom:200px;
+                left: 35%;
+                font-family: Helvetica;
+                font-size: 50px;
+                text-align: center;
+                color:white;
+            }
+            /*Search button Styling*/
+            .search {
+                float: center;
+            }
+            /*Styling for input controls*/
+            .search input[type=text] {
+                padding: 10px;
+                width: 82%;
+                font-size: 17px;
+                border: 2px solid black; 
+                border-radius: 10px; 
+                float: center;
+                margin-left: 6%;
+                position:absolute;
+                bottom:130px;
+                opacity: 80%;
+            }
+            /*Styling for Search button control*/
+            .search button {
+                float: center;
+                padding: 10px 10px;
+                margin-top: 6px;
+                margin-right: 16px;
+                background: black;
+                color: white;
+                font-size: 17px;
+                border-radius: 20px;
+                border: 2px dotted black;
+                cursor: pointer;
+                width:60px;
+                position:absolute;
+                bottom:130px;
+                left:90.5%;
+                opacity: 80%;
+            }
+            .search button:hover {
+                background: white;
+                color:black;
+            }
+            @media screen and (max-width: 600px) {
+            .search {
+                float: none;
+                }
+            .topnav input[type=text], .topnav .search-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+                }
+            }
+            /*Search button Styling Ends*/
+
+            /* Float four columns side by side */
+            .row h2{
+                margin:0%;
+                font-family: Helvetica;
+                font-size: 50px;
+                text-align: center;
+                margin-bottom: 2%;
+            }
+            .column {
+                float: left;
+                width: 22%;
+                padding: 0 3px;
+                position: relative;
+                text-align: center;
+                margin-left:2%;
+                font-family: Helvetica;
+            }
+            /* Remove extra left and right margins, due to padding */
+            .row {
+                margin: 0 -5px;
+            }
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                position: relative;
+                text-align: center;
+            }
+            /* Responsive columns */
+            @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+            }
+            /* Style the counter cards for Question and Answers */
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                padding: 16px;
+                text-align: center;
+                background-color: #f1f1f1;
+            }
+            .QandA h2{
+                font-family: Helvetica;
+                font-size: 50px;
+                text-align: center;
+            }
+            .QandA{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .QandA .question{
+                border: 3px solid orange;
+                background-color: black;
+                color: orange;
+                position: relative;
+                float:center;
+                width:70%;
+                font-family: Helvetica;
+                font-size: 16px;
+                padding: 5px;
+                padding-left: 15px;
+                margin-left: 12%;
+            }
+            .QandA .question:hover{
+                border: 5px solid orangered;
+                font-family: monospace;
+                font-size: 18px;
+                color: White;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Creating a heading for the website-->
+        <div class="Header">
+            <img src="Images/africanSafari.jpg" alt="AfricanSafari" style="width:100%;" >
+            <div class="heading"><h1>GAMERTICS</h1></div>
+        </div>
+
+        <!--Creating a naviagtion bar for the website-->
+        <div class="nav">
+            <a class="active" href="Homepage.html">Home</a>
+            <a href="AboutPage.html">About</a>
+            <a href="TopGamespage.html">Top Games</a>
+            <a href="GameInformationPage.html">Games Information</a>
+            <a href="UnreleasedGames.html">Upcoming Games</a>
+            <a href="ContactPage.html">Contact</a>
+            <a href="HelpPage.html">Help</a>
+            <a href="LoginPage.html" class="split">Login</a>
+            <a href="https://www.facebook.com/" class="split"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" class="split"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/accounts/login/" class="split"><i class="fa fa-instagram"></i></a>
+        </div>
+
+        <!--Create a Search desk area for helping users-->
+        <div class="image">
+            <img src="Images/lion.jpg" style="width:100%;">
+        </div>
+
+        <!--Search bar-->
+        <div class="search">
+            <h2>How can we help?</h2>
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <br>
+
+        <!--Frequently asked question by users-->
+        <div class="row">
+            <h2>Frequently asked Questions???</h2>
+            <div class="column">
+                <div class="card">
+                    <h3>Manage your account</h3>
+                    <p>Log in</p>
+                    <p>Change your email</p>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="card">
+                    <h3>Fix a problem</h3>
+                    <p>Not recieving notifications</p>
+                    <p>Can not sign up</p>
+                </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                    <h3>Legal and Privacy</h3>
+                    <p>Copyright</p>
+                    <p>Privacy Policy</p>
+              </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                      <h3>Discover</h3>
+                      <p>Top Releases</p>
+                      <p>Gaming Information</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!--Question and Answers section-->
+        <div class="QandA">
+            <h2>Question and Answers</h2>
+            <div class="question">
+                <p>Q: How do I login to get daily information?</p> 
+                <p>A: You first create an account to become a member of Gamertics to be able to login.</p> 
+            </div>
+
+            <div class="question">
+                <p>Q: What are the most popular games to play?</p>
+                <p>A: DeadSpace, Street Fighter 6 and Final Fantasy XVI</p>
+            </div>
+
+            <div class="question">
+                <p>Q: What are the benefits of gaming?</p>
+                <p>A: Enhances Hand-eye coordination, Boasts social skills, Reduces stress &amp; Enhances creativity</p>
+            </div>
+
+            <div class="question">
+                <p>Q: At what age can you start gaming?</p>
+                <p>A: At the age of 6 </p>
+            </div>
+            
+            <div class="question">
+                <p>Q: Why do children enjoy gaming?</p>
+                <p>A: The doamine in the brain becomes active when an individual participates in something fun.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <!--Creating a footer for the website-->
+        <div class="Footer">
+            <div class="footerRow">
+                <ul>
+                    <li><a href="ContactPage.html">Contact us</a></li>
+                    <li><a href="AboutPage.html">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="HelpPage.html">Help</a></li>
+                    <li><a href="References.html">References</a></li>
+                </ul>
+            </div>
+
+            <br>
+
+            <!--Social Media icons-->
+            <div class="social-container">
+                <ul class="social">
+                    <li><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiLjLXAnoX-AhWWTEEAHeRvDSAQPAgI"><i class="fa fa-google"></i></a></li>
+                    <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            
+            <hr><hr>.
+
+            <!--Copyright-->
+            <div class="footerRow">
+                <p>Gamertics Copyright &copy; 2023 Gamertics - All rights reserved || Designed By: Payal, Student Number: 23301266</p> 
+            </div>
+        </div>
+    </body>
+</html>

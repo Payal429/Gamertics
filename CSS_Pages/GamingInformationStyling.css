@@ -1,0 +1,116 @@
+h2{
+    font-family: Helvetica;
+    color:black;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-family: helvetica;
+    color:black;
+    font-size: 18px; 
+}
+/*Paragraph 1*/
+.Paragraph1{
+    background-color:rgb(10, 10, 10);
+
+    padding: 5px;
+    text-align: center ;
+}
+.Paragraph1 p{
+    color: chocolate;
+}
+/*Styling on life of gamers*/
+.Paragraph2{
+    opacity: 0.85;
+    background-color:orangered;
+    padding: 5px;
+    text-align: center ;
+}
+/*Styling of facts of gaming */
+.facts p{
+    color: black;
+    font-family: monospace;
+} 
+.facts h3{
+    color: black;
+    font-family: Helvetica;
+} 
+.facts h2{
+    color: chocolate;
+}
+.facts{
+    background-color: rgb(10, 10, 10);
+    padding-top: 5px;
+    padding-bottom:15px;
+}
+/* Style the counter cards */
+.cardR{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: right;
+    background-color: chocolate;
+    height:100px;
+    border-radius: 10px;
+    width:60%;
+    margin-left:36%;
+}
+.cardL{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: chocolate;
+    height:100px;
+    border-radius: 10px;
+    width:60%;
+    margin-left:1%;
+}
+.card:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+/*Advantages styling*/
+.Advantages{
+    opacity: 0.95;
+    font-family: helvetica;
+    color:black;
+    text-align: left;
+    font-size: 18px; 
+    background-color: orangered;
+    padding:5px;
+}
+/*Responsibilities styling section*/
+.responsibilities{
+    background-color: rgb(10, 10, 10);
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.responsibilities h2{
+    color: chocolate;
+}
+.responsibilities p{
+    font-family: helvetica;
+    color:black;
+    text-align: center;
+    font-size: 18px;
+
+    max-width: 225px;
+    height: 130px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: chocolate;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+}
+.responsibilities p:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25); 
+    font-family: monospace;
+    color:black;
+    text-align: center;
+    font-size: 18px;
+}

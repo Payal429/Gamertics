@@ -1,0 +1,134 @@
+/*Styling of Login Page*/
+body{
+    background: black;
+}
+h2{
+    font-family: Helvetica;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: White;
+    margin: 0%;
+}
+.login{
+    margin: 1%;
+    background-color: black ;
+    padding: 5px;
+    padding-left: 24%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("../HTML_Pages/Images/african-safari-map.jpg");
+}
+label{
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+.input input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.input input[type=password]{
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.input a{
+    font-family: Helvetica;
+    font-size: 16px;
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+button{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    border: 3.5px solid black;
+    border-radius: 20px;
+}
+button:hover{
+    border: 3.5px solid orangered;
+    background-color: #FE612C;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+
+.social-container{
+	background-color:black;
+	margin:0%;
+	width:69.5%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.social-container p{
+	Font-Family: Helvetica;
+	color: White;
+}
+.social li{
+	display:inline-block;
+	margin:0.15%;
+	position:relative;
+    text-align: center;
+	font-size: 20px;
+}
+.social i{
+	position: absolute;
+	color: #fff;
+	top: 21px;
+	left:21px;
+	transition:all 265ms ease-out;
+}
+.social a{
+	display:inline-block;
+}
+.social a::before{
+	transform: scale(); 
+	content:"";
+	width: 60px; 
+	height: 60px;
+	border-radius: 100%;
+	display: block; 
+	background: linear-gradient(#CC6D29,#CC6114,#CC5500,#FF6200,#FE612C); 
+	transition: all 265ms ease-out; 
+}
+.social a:hover::before{ 
+	transform: scale(0);
+	transition: all 265ms ease-in;
+}
+.social a:hover i{
+	transform: scale (2);
+	color: #FFCC70 100%;
+	background: -webkit-linear-gradient(#CC6D29,#CC6114,#CC5500,#FF6200,#FE612C);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 265ms ease-in;
+}
+.footerRow {
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: monospace;
+}
+  

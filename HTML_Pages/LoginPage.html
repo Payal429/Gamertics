@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!--Link to CSS stylesheet-->
+    <link rel="stylesheet" href="../CSS_Pages/style.css" type="text/css">
+    <link rel="stylesheet" href="../CSS_Pages/LoginStyling.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--Title of Website-->
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <!--Creating a heading for the website-->
+    <div class="Header">
+      <img src="Images/africanSafari.jpg" alt="AfricanSafari" style="width:100%;" >
+      <div class="heading"><h1>GAMERTICS</h1></div>
+    </div>
+        
+    <br>
+    <br>
+    
+    <!--Form to login into the website-->
+    <h2>Login</h2>
+    <div style="color:White; font-family: Helvetica;" class="login">
+      <form>
+        <div class="Label">
+          <br>
+          <br>
+          <label for="EmailAdd">Username:</label>
+        </div>
+            
+        <div class="input">	
+          <input type="email" id="EmailAdd" name="EmailAdd" value="" placeholder="Email Address"><br><br>
+        </div>
+            
+        <div class="Label">
+          <label for="Password">Password:</label>
+        </div>
+            
+        <div class="input">	
+          <input type="password" id="Password" name="Password" value="" placeholder="Password"><br><br>
+        </div>
+            
+        <div class="input">	
+          <input type="checkbox" id="RememberMe" name="RememberMe" value="">
+          <span class="checkmark"></span>
+          <label for="login"> Remember Me</label>
+          <a href="#">Forgot Password</a>
+        </div>
+            
+        <br>
+        <br>
+        
+        <button class="loginBut"  formaction="../HTML_Pages/TopGamespage.html">LOGIN</button>
+            
+        <button type="submit" formaction="../HTML_Pages/SignUpPage.html">Sign Up</button>
+            
+        <button formaction="../HTML_Pages/Homepage.html">Return to Homepage</button>
+        <br>			
+      </form>
+      <br>
+      <br>
+    </div>
+
+    <!--Social media icons-->
+    <div class="social-container">
+      <ul class="social">
+        <li><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiLjLXAnoX-AhWWTEEAHeRvDSAQPAgI"><i class="fa fa-google"></i></a></li>
+        <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://youtube.com/"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+
+    <!--Copyright-->
+    <div class="footerRow">
+      <p>Gamertics Copyright &copy; 2023 Gamertics - All rights reserved || Designed By: Payal, Student Number: 23301266</p> 
+    </div>
+  </body>
+</html>
